@@ -1,12 +1,11 @@
-// สร้างแบบ ESModule
- const sau = 'Southest Asia University'
+export const sauXX = 'Southest Asia University'
 
- let scoreYY = 999
+export let scoreXX = 999
 
- function sumNumbeYY(n1,n2) {
+export function sumNumberXX(n1, n2){
     return n1 + n2
 }
 
- const squareAreaXX = (wi,lo) => {
+export const squareAreaXX = (wi, lo) => {
     return wi * lo
 }

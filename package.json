@@ -1,21 +1,28 @@
 {
-    "name" : "dtiweb04",
-    "version" : "1.0.0",
-    "description" : "NodeJS with ES module",
-    "main" : "mymodule01.js",
-
-    "scripts" : {
-        "test" : "echo \"Error: no test specified\" && exit 1"
+    "name": "dtiweb04",
+    "version": "1.0.0",
+    "description": "NodeJS with ES module",
+    "main": "mymodule01.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/s6752410005/dtiweb04"
+        "url": "https://github.com/bankneedtosleep/dtiweb04"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/s6752410005/dtiweb04/issues"
+        "url": "https://github.com/bankneedtosleep/dtiweb04/issues"
     },
-    "homepage": "https://github.com/s6752410005/dtiweb04#readme"
+    "homepage": "https://github.com/bankneedtosleep/dtiweb04#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "multer": "^2.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
 }

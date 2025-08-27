@@ -7,6 +7,12 @@ export function sumNumbeZZ(n1,n2) {
     return n1 + n2
 }
 
-export default  squareAreaZZ = (wi,lo) => {
+// export  squareAreaZZ = (wi,lo) => {
+//     return wi * lo
+// }
+
+// export default squareAreaZZ
+
+export default (wi , lo) => {
     return wi * lo
 }
